@@ -1,17 +1,23 @@
-# Node.js dependencies
-node_modules/
-package-lock.json
-
-# Python cache
 __pycache__/
-
-# Logs
-*.log
-
-# Environment files
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
 .env
-
-# Build files
-/dist/
-/build/
-
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+.coverage.*
+*.log
+.DS_Store
+*.db
+*.sqlite3
