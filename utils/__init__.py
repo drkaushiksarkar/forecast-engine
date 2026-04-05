@@ -8,6 +8,7 @@ from utils.validation import DatasetValidator, FieldValidator, ValidationReport
 from utils.caching import LRUCache, TieredCache, cache_key
 from utils.logging_config import configure_logging, get_logger, new_correlation_id
 from utils.metrics import registry as metrics_registry, timed
+from utils.timestamp import parse_timestamp
 
 __all__ = [
     "retry", "RetryBudget",
@@ -15,4 +16,5 @@ __all__ = [
     "LRUCache", "TieredCache", "cache_key",
     "configure_logging", "get_logger", "new_correlation_id",
     "metrics_registry", "timed",
+    "parse_timestamp",
 ]
